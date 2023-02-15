@@ -8,4 +8,4 @@ Since I did not have a landing page yet, I chose to use [Datafolio](https://data
 
 The result was a minimal framework that would support adding/removing CSS classes and triggering JS functions, based on crossing scroll-thresholds in either direction. Since dynamic rendering would be necessary for a video game, the framework requires the website to be built in "scenes". Each scene contains its own "anchoring div" for relatively calculating internal scroll thresholds. It also contains details of the scroll animations (and JS functions) that would be scroll-triggered by HTML objects contained in the scene. This way, we can dynamically load a sliding window of scenes from data.
 
-Over-engineering for a landing page (though the animations are nice) and still missing details/edge cases, but the framework is ultimately a good prototype for a video game renderer.
+Over-engineering for a landing page (though the animations are nice) and still missing details/edge cases, but the framework is ultimately a good starting point for a video game renderer.

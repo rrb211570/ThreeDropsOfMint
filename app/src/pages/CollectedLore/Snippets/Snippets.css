@@ -1,0 +1,11 @@
+.snippetBtn{
+    height: 120px;
+    width: 120px;
+}
+.snippetBtn * {
+    pointer-events: none
+}
+.snippetImg{
+    height: 50px;
+    width: 50px;
+}
